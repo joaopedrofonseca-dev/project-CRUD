@@ -1,0 +1,14 @@
+node_modules/
+
+/dist
+
+/assets
+
+build/
+
+*.log
+
+.vscode/
+.idea/
+
+.env

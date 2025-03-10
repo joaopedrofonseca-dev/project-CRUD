@@ -1,0 +1,47 @@
+.perfil {
+    width: 800px;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px 1px 1px solid rgb(3, 173, 3);
+}
+
+.perfil h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.perfil p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons button {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    background-color: #116feb;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width:700px){
+    .perfil {
+        width: 400px;
+    }
+}
